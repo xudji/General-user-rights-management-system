@@ -1,0 +1,145 @@
+.denglu {
+    position: relative;
+    width: 600px;
+    height: 263px;
+    background-image: url(../index.html/images/背景.png);
+}
+
+.denglu .title {
+    position: absolute;
+    top: 151px;
+    left: 236px;
+    width: 344px;
+    height: 100px;
+}
+
+.denglu .title span {
+    width: 338px;
+    height: 39px;
+    font-size: 40px;
+    font-family: PingFang SC;
+    font-weight: 800;
+    color: #FFFFFF;
+    line-height: 32px;
+    letter-spacing: 3px;
+}
+
+.beijin {
+    position: absolute;
+    left: 235px;
+    top: 279px;
+    width: 646px;
+    height: 557px;
+    background-image: url(../index.html/images/装饰.png);
+}
+
+.yemian {
+    position: absolute;
+    left: 260px;
+    top: 152px;
+    width: 450px;
+    height: 584px;
+    background-color: #ffffff;
+}
+
+.top {
+    height: 34px;
+
+}
+
+.top img {
+    float: right;
+    margin-top: 9px;
+    margin-right: 10px;
+    width: 18px;
+    height: 21px;
+}
+
+.zhanghao {
+    position: relative;
+    margin-left: 39px;
+    height: 447px;
+
+}
+
+h2 {
+    width: 70px;
+    height: 32px;
+    font-size: 34px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #35476B;
+}
+
+.zhanghao input {
+    display: block;
+    margin-bottom: 32px;
+    padding-left: 30px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #c0c6d9;
+    width: 363px;
+    height: 24px;
+    font-size: 20px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: #C0C6D9;
+}
+
+.zhanghao .blue {
+    margin-top: 88px;
+    border-bottom: 1px solid #0f75ff;
+    background-image: url(../index.html/images/icon-账号.png);
+    background-repeat: no-repeat;
+}
+
+.zhanghao .one {
+    background-image: url(../index.html/images/icon-密码-默认.png);
+    background-repeat: no-repeat;
+}
+
+.zhanghao .two {
+    background-image: url(../index.html/images/icon-验证码-默认.png);
+    background-repeat: no-repeat;
+}
+
+.zhanghao span {
+    position: absolute;
+    left: 306px;
+    top: 222px;
+    display: inline-block;
+    width: 84px;
+    height: 28px;
+    border: 2px solid #C0C6D9;
+}
+
+.zhanghao p {
+    text-align: center;
+}
+
+.zhanghao p a {
+    text-decoration: none;
+    width: 64px;
+    height: 16px;
+    font-size: 16px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: #C0C6D9;
+}
+
+.zhanghao button {
+    margin-top: 64px;
+    margin-left: 20px;
+    width: 362px;
+    height: 50px;
+    border: 0;
+    background: linear-gradient(90deg, #3677FF, #0254FE);
+    border-radius: 25px;
+    box-shadow: 0 8px 8px #b6cefe;
+
+    font-size: 20px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: #FFFFFF;
+}
