@@ -1,0 +1,98 @@
+// 列表内容模块
+
+/* 右侧小圈圈 */
+.totop{
+    .mixin1(#fff,160px,@color3);
+}
+.kefu{
+    .mixin1(@color1,100px,#fff);
+}
+
+.banner{
+    width: 100%;
+    height: 480px;
+    .item{
+        width: 100%;
+        height: 480px;
+        background: url(https://stormsend1.djicdn.com/stormsend/uploads/955fd0c180b7f7d94b36a833b82f34e9.jpg) center center no-repeat;
+        background-size: cover;
+        h1{
+            font-size: 40px;
+            color: #fff;
+            text-align: center;
+            padding-top: 200px;
+        }
+    }
+}
+
+.main{
+    background-color: #F5F5F5;
+    overflow: hidden;
+    padding-bottom: 20px;
+    .mavic{
+        width: 1200px;
+        margin: 50px auto 0;
+        &-head{
+            line-height: 64px;
+            overflow: hidden;
+            h1{
+                font-size: 32px;
+                color: @color1;
+                font-weight: bold;
+                float: left;
+            }
+            a{
+                float: right;
+                font-size: 17px;
+                color: @color1;
+            }
+            a:hover{
+                color: @color3;
+            }
+        }
+        .mixin2();
+        .mavic-list{
+            margin-top: 20px;
+            overflow: hidden;
+            .list-wrap{
+                width: 1300px;
+                overflow: hidden;
+                .item{
+                    width: 592px;
+                    height: 312px;
+                    float: left;
+                    margin-right: 16px;
+                    margin-bottom: 16px;
+                    background-color: #fff;
+                    img{
+                        float: left;
+                        width: 260px;
+                        height: 260px;
+                        margin: 26px 24px;
+                    }
+                    div{
+                        float: left;
+                        width: 240px;
+                        h3{
+                            font-size: 20px;
+                            color: @color1;
+                            margin-top: 70px;
+                        }
+                        p{
+                            font-size: 14px;
+                            color: @color1;
+                            margin: 20px 0;
+                        }
+                        span{
+                            font-size: 16px;
+                            color: @color1;
+                        }
+                    }
+                    &:hover{
+                        box-shadow: 0 5px 10px #ccc;
+                    }
+                }
+            } 
+        }
+    }
+}

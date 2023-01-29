@@ -1,0 +1,195 @@
+// 详情内容模块
+
+/* 右侧小圈圈 */
+.totop{
+    .mixin1(#fff,160px,@color3);
+}
+.kefu{
+    .mixin1(@color1,100px,#fff);
+}
+
+// 路径导航
+.navs{
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 56px;
+    font-size: 12px;
+    color: #ccc;
+    a{
+        color: #666;
+    }
+    a:hover{
+        color: #1890FF;
+        text-decoration: underline;
+    }
+    span{
+        color: #666;
+    }
+}
+
+// 商品详情
+.goods{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+    position: relative;
+    .goods_img{
+        float: left;
+        width: 552px;
+        .big_img{
+            width: 552px;
+            height: 368px;
+            border: 1px solid #eee;
+            position: relative;
+            img{
+                width: 550px;
+                height: 366px;
+            }
+            .mask{
+                width: 275px;
+                height: 183px;
+                background-color: orange;
+                opacity: 0.4;
+                position: absolute;
+                left: 0;
+                top: 0;
+                cursor: move;
+                display: none;
+            }
+        }
+        .small_img{
+            margin-top: 16px;
+            height: 42px;
+            text-align: center;
+            img{
+                width: 60px;
+                height: 40px;
+                border: 1px solid #eee;
+                display: inline-block;
+                margin: 0 7px;
+                cursor: pointer;
+            }
+            .active{
+                border: 1px solid lightskyblue;
+            }
+        }
+    }
+    .right{
+        position: absolute;
+        left: 562px;
+        top: 0;
+        border: 1px solid lightblue;
+        width: 600px;
+        height: 400px;
+        overflow: hidden;
+        display: none;
+        img{
+            width: 1200px;
+            height: 800px;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+    .goods_msg{
+        float: right;
+        width: 550px;
+        .top{
+            padding-bottom: 25px;
+            border-bottom: 1px solid #eee;
+            h1{
+                font-size: 30px;
+                color: @color1;
+                margin-bottom: 15px;
+            }
+            h3{
+                font-size: 26px;
+                color: @color1;
+                margin-bottom: 15px;
+            }
+            p{
+                font-size: 14px;
+                color: #999;
+                span{
+                    color: #1890FF;
+                }
+            }
+        }
+        .center{
+            padding: 24px 0;
+            border-bottom: 1px solid #eee;
+            li{
+                font-size: 14px;
+                line-height: 26px;
+                color: #666;
+            }
+        }
+        .bottom{
+            padding-top: 24px;
+            overflow: hidden;
+            .count{
+                float: left;
+                width: 66px;
+                height: 48px;
+                p{
+                    width: 38px;
+                    height: 48px;
+                    line-height: 48px;
+                    text-align: center;
+                    border: 1px solid #ccc;
+                    float: left;
+                    font-size: 16px;
+                    color: @color1;
+                }
+                span{
+                    width: 28px;
+                    height: 24px;
+                    line-height: 22px;
+                    text-align: center;
+                    border: 1px solid #ccc;
+                    float: left;
+                    border-left: none;
+                    cursor: pointer;
+                }
+            }
+            .btn{
+                width: 180px;
+                height: 48px;
+                line-height: 48px;
+                text-align: center;
+                color: #fff;
+                background-color: #1890FF;
+                float: left;
+                margin-left: 12px;
+                cursor: pointer;
+                border-radius: 3px;
+                margin-bottom: 22px;
+            }
+            p{
+                font-size: 14px;
+                color: #666;
+                width: 100%;
+                float: left;
+            }
+        }
+    }
+}
+
+.detail{
+    width: 1200px;
+    margin: 0 auto;
+    h2{
+        line-height: 60px;
+        font-size: 20px;
+        text-align: center;
+        color: #1890FF;
+        border-bottom: 1px solid #1890FF;
+    }
+    .detail_imgs{
+        padding: 60px 0;
+        img{
+            width: 1200px;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+# 项目说明文档
+- DJI-demo/ 项目根目录
+    + data/ 模拟数据目录
+    + font/ 字体图标目录
+    + imgs/ 图片资源目录
+    + js/ JS脚本目录
+        + less.js 编译less的脚本
+        + utils.js 工具函数库
+    + less/ less文件目录
+        + variable.less 变量模块
+        + mixins.less 混合模块
+        + reset.less 样式重置模块
+        + header.less 头部模块
+        + footer.less 底部模块
+        + index-content.less 首页内容模块
+        + index.less 首页入口模块
+    + index.html 商城首页
+    + list.html 商城列表页
+    + detail.html 商城详情页
+    + README.md 说明文档

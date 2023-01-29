@@ -1,0 +1,158 @@
+// 头部模块
+
+// 头部第一行
+.header{
+    height: 41px;
+    line-height: 41px;
+    background-color: #f7f9fa;
+    border-bottom: 1px solid #f0f1f2;
+    overflow: hidden;
+    &_con{
+        width: 1200px;
+        margin: 0 auto;
+        &_left{
+            float: left;
+            a{
+                float: left;
+                font-size: 12px;
+                color: @color2;
+                &:hover{
+                    color: @color3;
+                }
+            }
+            .notice{
+                float: left;
+                width: 500px;
+                height: 40px;
+                line-height: 40px;
+                position: relative;
+                margin-left: 50px;
+                .list{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    li{
+                        font-size: 12px;
+                        color: @color2;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+        &_right{
+            float: right;
+            a{
+                font-size: 12px;
+                color: @color2;
+                line-height: 16px;
+                padding: 0 10px;
+                border-right: 1px solid @color2;
+                &:hover{
+                    color: @color3;
+                }
+                .number{
+                    display: inline-block;
+                    width: 16px;
+                    height: 16px;
+                    color: #fff;
+                    line-height: 16px;
+                    text-align: center;
+                    border-radius: 50%;
+                    background-color: @color3;
+                }
+            }
+            .noborder{
+                border-right:  none;
+            }
+        }
+    }
+}
+
+// 头部第二行
+.header_search{
+    line-height: 65px;
+    background-color: #fff;
+    border-bottom: 1px solid #f0f1f2;
+    &_con{
+        width: 1200px;
+        margin: 0 auto;
+        overflow: hidden;
+        &_left{
+            float: left;
+            h1{
+                float: left;
+                margin-right: 60px;
+                span{
+                    float: left;
+                    font-size: 26px;
+                    margin-right: 10px;
+                }
+                em{
+                    float: left;
+                    font-size: 18px;
+                    color: @color1;
+                }
+            }
+            span{
+                font-size: 14px;
+                color: @color1;
+                margin-right: 35px;
+            }
+            a{
+                font-size: 14px;
+                color: @color1;
+                margin-right: 35px;
+                &:hover{
+                    color: @color3;
+                }
+            }
+        }
+        &_right{
+            float: right;
+            position: relative;
+            .search{
+                font-size: 14px;
+                padding: 14px 40px 14px 12px;
+                width: 310px;
+                border: none;
+                border-bottom: 1px solid @color3;
+            }
+            span{
+                font-size: 24px;
+                position: absolute;
+                top: 3px;
+                right: 12px;
+            }
+        }
+    }
+}
+
+// 头部第三行
+.header_nav{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    li{
+        float: left;
+        width: 100px;
+        text-align: center;
+        padding: 15px 0 25px 0;
+        margin: 0 4px;
+        a{
+            color: @color1;
+            img{
+                width: 70px;
+                height: 56px;
+                margin: 0 auto;
+            }
+            h3{
+                font-size: 12px;
+                color: @color1;
+                &:hover{
+                    color: @color3;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,62 @@
+// 混合模块
+.mixin1(@bgc,@bot,@col){
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: @bgc;
+    position: fixed;
+    right: 20px;
+    bottom: @bot;
+    cursor: pointer;
+    z-index: 9999;
+    border: 1px solid @col;
+    i{
+        font-size: 20px;
+        color: @col;
+    }
+}
+
+.mixin2(){
+    .mixin2{
+        overflow: hidden;
+        background-color: #fff;
+        .left{
+            float: left;
+            width: 600px;
+            height: 400px;
+            img{
+                width: 260px;
+                height: 256px;
+                float: left;
+                margin: 72px 24px;
+            }
+            div{
+                float: left;
+                width: 240px;
+                margin-top: 120px;
+                h3{
+                    font-size: 24px;
+                    color: @color1;
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                }
+                p{
+                    font-size: 14px;
+                    margin-bottom: 20px;
+                    color: @color1;
+                }
+                span{
+                    font-size: 16px;
+                    color: @color1;
+                }
+            }
+        }
+        .right{
+            float: left;
+            width: 600px;
+            height: 400px;
+        }
+    }
+}
