@@ -1,46 +1,49 @@
-﻿<!DOCTYPE HTML>
-<html lang="zh-cn">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>登录页</title>
-
-	<link href="resources/plugins/bootstrap-3.3.0/css/bootstrap.min.css" rel="stylesheet"/>
-	<link href="resources/plugins/material-design-iconic-font-2.2.0/css/material-design-iconic-font.min.css" rel="stylesheet"/>
-	<link href="resources/plugins/waves-0.7.5/waves.min.css" rel="stylesheet"/>
-	<link href="resources/plugins/checkbix/css/checkbix.min.css" rel="stylesheet"/>
-	<link href="resources/css/login.css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>denglu</title>
+    <link rel="stylesheet" href="./login.css">
 </head>
-<body>
-<div id="login-window">
-	<div class="input-group m-b-20">
-		<span class="input-group-addon"><i class="zmdi zmdi-account"></i></span>
-		<div class="fg-line">
-			<input id="username" type="text" class="form-control" name="username" placeholder="帐号" required autofocus value="admin">
-		</div>
-	</div>
-	<div class="input-group m-b-20">
-		<span class="input-group-addon"><i class="zmdi zmdi-male"></i></span>
-		<div class="fg-line">
-			<input id="password" type="password" class="form-control" name="password" placeholder="密码" required value="123456">
-		</div>
-	</div>
-	<div class="clearfix">
-	</div>
-	<div class="checkbox">
-		<input id="rememberMe" type="checkbox" class="checkbix" data-text="自动登录" name="rememberMe">
-	</div>
-	<a id="login-bt" href="javascript:;" class="waves-effect waves-button waves-float"><i class="zmdi zmdi-arrow-forward"></i></a>
-</div>
-<script src="resources/plugins/jquery.1.12.4.min.js"></script>
-<script src="resources/plugins/bootstrap-3.3.0/js/bootstrap.min.js"></script>
-<script src="resources/plugins/waves-0.7.5/waves.min.js"></script>
-<script src="resources/plugins/checkbix/js/checkbix.min.js"></script>
 
-<script src="resources/js/login.js"></script>
-<script type="text/javascript">
-	Checkbix.init();
-</script>
+<body>
+    <div class="denglu">
+        <div class="title">
+            <span>媒体素材统一报送</span>
+            <br><br>
+            <span>管理系统</span>
+        </div>
+        <div class="beijin"></div>
+        <div class="yemian">
+            <div class="top">
+                <img src="./images/icon-验证码.png " alt="">
+                <img src="./images/icon-密码.png" alt="">
+                <img src="./images/icon-账号-默认.png" alt="">
+            </div>
+            <div class="zhanghao">
+                <h2>登录</h2>
+                <input type="text" class="blue" placeholder="输入账号">
+                <input type="text" class="one" placeholder="输入密码">
+                <input type="text" class="two" placeholder="输入验证码"><span></span>
+                <p><a href="">忘记密码</a></p>
+                <button>登录</button>
+
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+    <script src="./login.js"></script>
 </body>
+
 </html>
